@@ -1,4 +1,4 @@
-import { feature1, feature2, feature3, feature4 } from "../assets/pics"
+import { feature1, feature2, feature3, feature4, business1, business2, business3, business4 } from "../assets/pics"
 
 export const navLinks = [
     {href: '#', label: "Microsoft 365"},
@@ -38,9 +38,27 @@ export const features = [
 
 export const Business = [
     {
-        img:
+        img: business1,
         heading: "Microsoft 365 Copilot",
         description: "Save time and focus on the things that matter most with AI in Microsoft 365 for business.",
         buttonLabel: "Learn More",
+    },
+    {
+        img: business2,
+        heading: "Get Microsoft Teams for your business",
+        description: "Online meetings, chat, real-time collaboration, and shared cloud storage – all in one place.",
+        buttonLabel: "Find the right plan for your business"
+    },
+    {
+        img: business3,
+        heading: "Welcome to your Windows 365 Cloud PC",
+        description: "Securely stream your Windows experience from the Microsoft cloud to any device.",
+        buttonLabel: "Get it Today"
+    },
+    {
+        img: business4,
+        heading: "Visual studio 2022",
+        description: "Get the most comprehensive IDE for .NET and C++ developers on Windows for building web, cloud, desktop, mobile apps, services and games.",
+        buttonLabel: "Download Visual Studio 2022"
     }
 ]
