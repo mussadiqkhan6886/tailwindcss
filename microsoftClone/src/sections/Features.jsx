@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Main = () => {
+const Features = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Features
