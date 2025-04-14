@@ -22,7 +22,7 @@ const Business = () => {
           <img src={linkedin} alt="linkedin logo" />
         </div>
       </div>
-      <a href="#top">
+      <a href="#top" className="">
         <button className="float-right bg-gray-300 font-semibold px-5 py-2 mr-5"><i className="fa-solid fa-arrow-up mr-2"></i>Back to top</button>
       </a>
     </div>
