@@ -1,3 +1,20 @@
 @import 'tailwindcss';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@media (min-width: 580px){
+    .at-580px{
+        @apply grid-cols-2;
+    }
+}
+@media (min-width: 1060px){
+    .at-1060px{
+        @apply grid-cols-4;
+    }
+}
+@media (min-width: 1060px){
+    .Button-1060px{
+        @apply absolute bottom-0;
+    }
+}
