@@ -14,6 +14,11 @@
     }
 }
 @media (min-width: 1060px){
+    .Height-1060px{
+        @apply h-[101%];
+    }
+}
+@media (min-width: 1060px){
     .Button-1060px{
         @apply absolute bottom-0;
     }
