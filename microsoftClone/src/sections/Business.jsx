@@ -23,7 +23,7 @@ const Business = () => {
         </div>
       </div>
       <a href="#top">
-        <button className="float-right bg-gray-300 font-semibold px-5 py-2 mr-5 hover:bg-white cursor-pointer hover:shadow-2xl"><i className="fa-solid fa-arrow-up mr-2"></i>Back to top</button>
+        <button className="float-right bg-gray-300 font-semibold px-5 py-2 mr-5 hover:bg-white cursor-pointer hover:shadow-xl"><i className="fa-solid fa-arrow-up mr-2"></i>Back to top</button>
       </a>
     </div>
     </>
