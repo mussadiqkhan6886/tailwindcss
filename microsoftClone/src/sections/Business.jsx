@@ -13,7 +13,7 @@ const Business = () => {
         <Card key={index} {...item} />
       ))}      
     </div>
-    <div>
+    <div className="h-35">
       <div className="flex gap-10 lg:m-14 m-8">
         <h4>Follow Microsoft</h4>
         <div className="w-[25px] flex gap-8">
@@ -22,7 +22,7 @@ const Business = () => {
           <img src={linkedin} alt="linkedin logo" />
         </div>
       </div>
-      <a href="#top" className="">
+      <a href="#top">
         <button className="float-right bg-gray-300 font-semibold px-5 py-2 mr-5 hover:bg-white cursor-pointer hover:shadow-2xl"><i className="fa-solid fa-arrow-up mr-2"></i>Back to top</button>
       </a>
     </div>
