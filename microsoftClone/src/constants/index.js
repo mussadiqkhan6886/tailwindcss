@@ -36,7 +36,7 @@ export const features = [
     }
 ]
 
-export const Business = [
+export const business = [
     {
         img: business1,
         heading: "Microsoft 365 Copilot",
