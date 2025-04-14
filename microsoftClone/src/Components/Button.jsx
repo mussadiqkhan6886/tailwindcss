@@ -1,10 +1,8 @@
-import React from 'react'
-
-const Button = () => {
+const Button = ({label}) => {
   return (
-    <div>
-      
-    </div>
+    <button className="p-2 px-3.5 mt-1 cursor-pointer bg-blue-700 text-white font-bold font-[Roboto]">
+      {label}
+    </button>
   )
 }
 
