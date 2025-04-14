@@ -15,13 +15,13 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className='bg-gray-100 flex justify-between p-7 lg:px-15'>
-        <div className='flex text-[14px] text-gray-600 gap-9'>
+      <div className='bg-gray-100 flex flex-col justify-between p-7 lg:px-15'>
+        <div className='flex flex-col xl:flex-row text-[14px] items-start text-gray-600 gap-3'>
           <h6 className='hover:border-black border-transparent border-b-[1px] cursor-pointer'>English (Pakistan)</h6>
           <h6 className='hover:border-black border-transparent border-b-[1px] cursor-pointer'>Your Privacy Choices</h6>
           <h6 className='hover:border-black border-transparent border-b-[1px] cursor-pointer'>Consumer Health Privacy</h6>
         </div>
-        <div className='flex text-[14px] text-gray-600 gap-7'>
+        <div className='flex text-[11px] lg:justify-end center flex-wrap mt-5 items-start text-gray-600 gap-5 xl:mt-0'>
           <h6 className='hover:border-black border-transparent border-b-[1px] cursor-pointer'>Contact Microsoft</h6>
           <h6 className='hover:border-black border-transparent border-b-[1px] cursor-pointer'>Privacy</h6>
           <h6 className='hover:border-black border-transparent border-b-[1px] cursor-pointer'>Terms of use</h6>
