@@ -14,18 +14,16 @@ const Business = () => {
       ))}      
     </div>
     <div>
-      <div>
+      <div className="flex gap-10 lg:m-14 m-8">
         <h4>Follow Microsoft</h4>
-        <div>
+        <div className="w-[25px] flex gap-8">
           <img src={facebook} alt="facebook logo" />
           <img src={twitter} alt="twitter logo" />
-          <a href="https://www.linkedin.com/in/mussadiq-khan-2815aa34a/">
-            <img src={linkedin} alt="linkedin logo" />
-          </a>
+          <img src={linkedin} alt="linkedin logo" />
         </div>
       </div>
       <a href="#top">
-        <button><i class="fa-solid fa-arrow-up"></i>Back to top</button>
+        <button className="float-right bg-gray-300 font-semibold px-5 py-2 mr-5"><i className="fa-solid fa-arrow-up mr-2"></i>Back to top</button>
       </a>
     </div>
     </>
