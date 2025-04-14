@@ -62,3 +62,77 @@ export const business = [
         buttonLabel: "Download Visual Studio 2022"
     }
 ]
+
+export const footerLinks = [
+    {
+      title: "What's new",
+      links: [
+        "Surface Book 3",
+        "Surface Pro",
+        "Microsoft Copilot",
+        "Microsoft 365",
+        "Explore Microsoft products",
+        "Windows 11 apps",
+      ],
+    },
+    {
+      title: "Microsoft Store",
+      links: [
+        "Account profile",
+        "Download Center",
+        "Returns",
+        "Order tracking",
+      ],
+    },
+    {
+      title: "Education",
+      links: [
+        "Microsoft in education",
+        "Devices for education",
+        "Microsoft Teams for Education",
+        "Microsoft 365 Education",
+        "Office Education",
+        "Educator training and development",
+        "Deals for students and parents",
+        "Azure for students",
+      ],
+    },
+    {
+      title: "Business",
+      links: [
+        "Microsoft Cloud",
+        "Microsoft Security",
+        "Azure",
+        "Dynamics 365",
+        "Microsoft 365",
+        "Microsoft Advertising",
+        "Microsoft 365 Copilot",
+        "Microsoft Teams",
+      ],
+    },
+    {
+      title: "Developer & IT",
+      links: [
+        "Microsoft Developer",
+        "Documentation",
+        "Microsoft Learn",
+        "Microsoft Tech Community",
+        "Azure Marketplace",
+        "AppSource",
+        "Microsoft Power Platform",
+        "Visual Studio",
+      ],
+    },
+    {
+      title: "Company",
+      links: [
+        "Careers",
+        "About Microsoft",
+        "Company news",
+        "Privacy at Microsoft",
+        "Investors",
+        "Sustainability",
+      ],
+    },
+  ];
+  
